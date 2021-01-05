@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-heading{
+    width: 40%;
+    margin: 5%;
+    float: left;
+}
+.top-heading p{
+    text-align: center;
+    font-size: 18px;
+}
+.top-heading h1{
+    font-size: 350%;
+}
+#our{
+    color: rgb(194, 52, 1);
+}
+.head-img{
+    width: 40%;
+    margin: 5%;
+    float: left;
+}
+.head-img img{
+    width: 100%;
+}
+.one{
+    height: 80vh;
+    /* border: 1px solid black; */
+}
+.port-folio{
+    font-size: 30px;
+    color: rgb(12, 109, 201);
+}
+
+.two{
+    height: 70vh;
+    width: 90%;
+    margin: 0px auto;
+}
+.work-experience{
+    width: 20%;
+    margin: 2.5%;
+    float: left;
+}
+.work-experience img{
+    width: 100%;
+    border-radius: 10px;
+}
+.work-heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+#work-heading{
+    color: blue;
+}
+.marquee-design{
+    font-size: 20px;
+    font-weight: 700px;
+    font-style: italic;
+}
+.marquee-design sub{
+    color: rgb(228, 13, 163);
+}
+.marquee-design sup{
+    color: rgb(18, 170, 170);
+}
+.three{
+    width: 90%;
+    margin: 0px auto;
+}
