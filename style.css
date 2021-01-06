@@ -2,16 +2,17 @@ body{
     margin: 0;
     padding: 0;
 }
-.top-heading{
+.half-width{
     width: 40%;
-    margin: 5%;
+    margin-left: 5%;
+    padding: 2%;
     float: left;
 }
-.top-heading p{
+.half-width p{
     text-align: justify;
     font-size: 18px;
 }
-.top-heading h1{
+.half-width h1{
     font-size: 350%;
 }
 #our{
@@ -19,7 +20,7 @@ body{
 }
 .head-img{
     width: 40%;
-    margin: 5%;
+    margin-left: 5%;
     float: left;
 }
 .head-img img{
@@ -100,15 +101,32 @@ body{
     padding-bottom: 150px;
 }
 .five{
-    height: 300px;
-
+    background-image: url("image/bg1/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    margin-bottom: 150px;
 }
-.experience-label{
-    color: red;
-    font-size: 30px;
-    font-weight: 700px;
+.box-shadow{
+    height: 80%;
+    box-shadow: 10px 10px 50px rgb(163, 125, 125);
+    border-radius: 10px;
+    text-align: center; 
 }
-.experience-label meter{
-   
-    
+.box-shadow p{
+    color: dimgray;
+    text-align: center;
+}
+.experience-title{
+    color: #ffa500;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
 }
