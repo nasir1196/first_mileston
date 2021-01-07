@@ -1,0 +1,24 @@
+
+li:hover{
+    background-color: rgb(132, 175, 75);
+    color: rgb(9, 21, 128);
+    font-size: 50px;
+    cursor: pointer;
+    width: 17%;
+    
+}
+li:nth-child(2n+1){
+    color: deeppink;
+    /* content:"Odd number"; */
+}
+li:nth-child(2n){
+    color: rgba(35, 17, 199, 0.788);
+}
+li::after{
+    content: " Arithmetic Number";
+    font-size:20px ;
+}
+li::before{
+content: "Show Time ";
+font-size: 20px;
+}
