@@ -1,5 +1,5 @@
 
-li:hover{
+p:hover{
     background-color: rgb(132, 175, 75);
     color: rgb(9, 21, 128);
     font-size: 50px;
@@ -7,18 +7,18 @@ li:hover{
     width: 17%;
     
 }
-li:nth-child(2n+1){
+p:nth-child(2n+1){
     color: deeppink;
     /* content:"Odd number"; */
 }
-li:nth-child(2n){
+p:nth-child(2n){
     color: rgba(35, 17, 199, 0.788);
 }
-li::after{
+p::after{
     content: " Arithmetic Number";
     font-size:20px ;
 }
-li::before{
+p::before{
 content: "Show Time ";
 font-size: 20px;
 }
@@ -40,7 +40,7 @@ section{
     background-color: rgb(175, 7, 153);
 }
 .box-position-2 a{
-    text-align:center;
+    text-apgn:center;
     text-decoration: none;
     font-size: 22px;
     padding: 5px;
@@ -75,4 +75,11 @@ input:focus{
     background-color: yellow;
     width: 10%;
     border-radius: 30px;
+}
+body{
+    counter-reset:section;
+}
+p::before{
+    counter-increment: section;
+    content: " 🌡️ " "Numeric " counter(section) " : ";
 }
