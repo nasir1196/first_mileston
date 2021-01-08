@@ -22,3 +22,57 @@ li::before{
 content: "Show Time ";
 font-size: 20px;
 }
+section{
+    background-color: cadetblue;
+}
+.box-position-1{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+.box-position-2{
+    position: fixed;
+    right: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius:30px;
+    padding:10px;
+    background-color: rgb(175, 7, 153);
+}
+.box-position-2 a{
+    text-align:center;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px;
+    color: cornsilk;
+}
+.box-position-2:hover{
+    width: 140px;
+    height: 35px;
+}
+.box-position-2 a:hover{
+    color: darkturquoise;
+    font-size: 30px;
+}
+.box-position-2 a:visited{
+    color: rgb(236, 220, 220);
+}
+.box-position-2 a:active{
+    color: yellow;
+}
+.box-position-3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(25, 7, 180);
+}
+div{
+    height: 100px;
+    width: 100px;
+}
+input:focus{
+    font-size: 20px;
+    color: rgb(30, 17, 88);
+    background-color: yellow;
+    width: 10%;
+    border-radius: 30px;
+}
